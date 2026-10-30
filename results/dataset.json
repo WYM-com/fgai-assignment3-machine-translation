@@ -1,0 +1,30 @@
+{
+  "dataset": "Helsinki-NLP/opus_books",
+  "configuration": "en-fr",
+  "revision": "1f9f6191d0e91a3c539c2595e2fe48fc1420de9b",
+  "raw_rows": 127085,
+  "eligible_rows": 119415,
+  "seed": 42,
+  "config_hash": "9808ac2b1d933b2c35d3a613e85064f11b8b94fcdc184e179759bbcc34dca36b",
+  "splits": {
+    "train": {
+      "count": 10000,
+      "sha256": "4544541cc53d3bc7e5d2e771d2d69d07b3935030b31066aacce7a36692b5169f",
+      "mean_source_words": 19.206,
+      "mean_target_words": 18.7567
+    },
+    "validation": {
+      "count": 500,
+      "sha256": "8a451cf019f53276c82215ff484ca784c9c14633fe61d093171d02f87f2d0d2b",
+      "mean_source_words": 18.74,
+      "mean_target_words": 18.076
+    },
+    "test": {
+      "count": 300,
+      "sha256": "d006deffa8ea8e1c0f7161901c19402c9d73f37a4618d2f9b10a3cf0e858a9b3",
+      "mean_source_words": 19.296666666666667,
+      "mean_target_words": 18.773333333333333
+    }
+  },
+  "limitation": "Sentence-level split; book-level grouping unavailable in this pipeline. Related passages and pretraining contamination remain possible."
+}

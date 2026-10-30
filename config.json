@@ -1,0 +1,19 @@
+{
+  "seed": 42,
+  "dataset": "Helsinki-NLP/opus_books",
+  "dataset_config": "en-fr",
+  "train_size": 10000,
+  "validation_size": 500,
+  "test_size": 300,
+  "max_words": 60,
+  "max_length": 128,
+  "max_new_tokens": 128,
+  "vocab_size": 8000,
+  "basic": {"d_model": 256, "nhead": 8, "layers": 3, "feedforward": 1024, "dropout": 0.1, "epochs": 10, "batch_size": 32, "learning_rate": 0.0003},
+  "mt5": {"id": "google/mt5-small", "epochs": 3, "batch_size": 2, "accumulation": 8, "learning_rate": 0.0005},
+  "llama": {"id": "meta-llama/Llama-3.2-1B-Instruct"},
+  "gemma": {"id": "google/gemma-3-1b-it"},
+  "temperature_examples": 60,
+  "temperatures": [0.2, 0.7, 1.0],
+  "temperature_seeds": [42, 43, 44]
+}
